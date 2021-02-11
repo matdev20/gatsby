@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import '../styles/index.css';
+import picture from '../images/WebBackGround.png';
 
 function Index() {
   const [date, setDate] = useState(null);
@@ -20,7 +21,7 @@ function Index() {
       <h1>MAMALUCRELLI Records</h1>
       <h2>CINQUANTA SFUMATURE DI CONTE - Trentesimo capitolo OUT NOW!</h2>
       <p>
-        <img src="/src/images/WebBackGround.png" />
+        <img src={picture} />
         
       </p>
       <br />
