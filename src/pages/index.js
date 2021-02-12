@@ -22,6 +22,7 @@ function Index() {
       <h2>CINQUANTA SFUMATURE DI CONTE - Trentesimo capitolo OUT NOW!</h2>
       <p>
         <img src={picture} />
+        <a href="http://www.freepik.com">Designed by Freepik</a>
         
       </p>
       <br />
